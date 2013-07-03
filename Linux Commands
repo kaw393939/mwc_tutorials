@@ -1,0 +1,83 @@
+sudo = super user do
+adduser = add a new user
+addgroup = add a new group
+ls = list all files
+ls -l = list all files (including hidden files) with the file permissions 
+
+File/folder permissions 
+drwxrwxrwx
+d = directory
+r = read the file
+w = write to the file
+x  = execute the files' program and  list its directories 
+Each set of rwx represents a different user. The order is as follow:
+1)user
+2)group
+3)everyone else
+
+The magical tab key: 
+        clicking once 
+1)If you start typing a file name it autocompletes it,
+  if there are more that one, it shows all the files/directories that begin with the letter(s) typed in.
+        clicking twice
+2)If your in a directory it lists all the sub-directories.
+
+up & down arrows = puts to the command line what you previously typed in(and hit enter).
+
+apt-get = get an application from the (linux)App store
+
+apt-get upgrade = upgrade all software on the server
+
+apt-get update : Update the list of available software repositories,
+(if list of dependencies is not updated on your version of linux)
+
+Absolute path  = is the location your in starting from the root
+It can't be mistaken for another file with the same name
+Relative path = is the path where you are, relative to your parent directory
+It can be confused with another file with the same name = depending on the parent root
+pwd = Show your absolute path
+cd ~ = takes you to your user directory
+cd .. = back up 1 dir
+cd ./ =  the realtive path of the directory you are in.
+
+ifconfig  = shows all network configurations
+ip  = is your computers (VM's) personal address. (like a postal address for a house)
+
+vi {name of a file - NOT a directory) will open up the linux editor to edit your file
+i = you MUST type the letter i to begin editing.
+esc = you MUST hit the esc key to stop editing 
+:qw = write what you just typed to the file and gets you out of the editor.
+:q = just gets you out of the editor (if you just want to view the file and not edit it)
+
+mkdir = make a new directory
+touch = make a new file
+
+mv = move folder mv {name of folder} /{location}
+
+mv could also change name of file
+mv {old name of file} {new name}
+the slash differentiates between changing file location to file name
+* = everything
+
+sudo vi etc/passwd = to see all users
+
+rm = remove (delete)
+remove file = rm file.name
+remove directory rm -r directory name
+flag [ r = recursive f = force = don't want warnings]
+cp = copy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
