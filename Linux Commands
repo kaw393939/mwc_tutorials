@@ -2,8 +2,8 @@ sudo = super user do
 adduser = add a new user
 addgroup = add a new group
 ls = list all files
-ls -l = list all files (including hidden files) with the file permissions 
-
+ls -l = list all files with the file permissions 
+ls -a hidden files
 File/folder permissions 
 drwxrwxrwx
 d = directory
@@ -21,7 +21,7 @@ The magical tab key:
   if there are more that one, it shows all the files/directories that begin with the letter(s) typed in.
         clicking twice
 2)If your in a directory it lists all the sub-directories.
-
+history = shows last command typed
 up & down arrows = puts to the command line what you previously typed in(and hit enter).
 
 apt-get = get an application from the (linux)App store
