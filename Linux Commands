@@ -66,6 +66,7 @@ remove file = rm file.name
 remove directory rm -r directory name
 flag [ r = recursive f = force = don't want warnings]
 cp = copy
+cp (-r for a whole folder/directory) {name of source file} {name of destination file}
 
 
 
