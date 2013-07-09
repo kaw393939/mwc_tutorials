@@ -38,7 +38,7 @@ Email
 
 Git saves your email address into the commits you make. We use the email address to associate your commits with your GitHub account.
 
-git config --global user.email "your_email@example.com"
+    git config --global user.email "your_email@example.com"
 # Sets the default email for git to use when you commit
 Your email address for Git should be the same one associated with your GitHub account. If it is not, see this guide for help adding additional emails to your GitHub account. If you want to keep your email address hidden, this guide may be useful to you.
 
